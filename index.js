@@ -16,7 +16,7 @@ puppeteer
     console.log({ heading })
 
     let allEvents = await page.evaluate(() => {
-      const eventsList = document.body.querySelectorAll(".events_ecommerce_cl row ")
+      const eventsList = document.body.querySelectorAll("card-body")
 
       let fruits = []
 
